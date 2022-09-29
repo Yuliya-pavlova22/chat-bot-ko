@@ -478,7 +478,7 @@ fun main() {
     if (balance == 0) print("Thank you for choosing us to manage your account! Your balance is 0.")
     if (balance < 0 ) print("Error, insufficient funds for the purchase. Your balance is ${balance + payment} , but you need $payment.")
 }
-//проверка наличия баланса
+//проверка наличия баланса rtgrt
 fun main() {
     val scanner = Scanner(System.`in`)
     var balance = readln().toInt()
